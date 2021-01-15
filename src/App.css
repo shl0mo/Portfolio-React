@@ -41,10 +41,6 @@
 	text-align: center;
 }
 
-.container-titulo-sessao {
-	/*padding: 20px 40px;*/
-}
-
 .sessao-sobre, .sessao-projetos, .sessao-contato {
 	padding: 50px 60px;
 }
