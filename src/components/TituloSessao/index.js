@@ -29,7 +29,8 @@ export function TituloSessao({ children }) {
 	const rect = '▮'
 	return (
 		<BoxTituloSessao>
-			<Rect>{rect}</Rect><TituloSessaoStyled>
+			<Rect>{rect}</Rect>
+			<TituloSessaoStyled>
 				{children}
 			</TituloSessaoStyled>
 		</BoxTituloSessao>

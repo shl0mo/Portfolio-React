@@ -38,6 +38,7 @@ const FooterStyled = styled.footer`
 	padding-top: 45px;
 	margin-bottom: 0;
 	bottom: 0;
+	cursor: default;
 `
 
 const ContainerDadosDev = styled.div`

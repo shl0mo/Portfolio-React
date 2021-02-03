@@ -18,13 +18,13 @@ const Nome = styled.span`
 const Funcao = styled.span`
 	font-size: 2.3em;
 	margin-left: 20px;
-	display: block;
+	display: block;	
 `
 
 const BarraTag = styled.span`
 	&:hover {
-		font-weight: bold;
 		color: blue;
+		font-weight: bold;
 	}
 `
 
