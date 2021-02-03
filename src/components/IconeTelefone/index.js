@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 const IconeTelefoneStyled = styled.span`
-	padding: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 8px;
 `
 
 export const IconeTelefone = ({ altura, largura }) => {

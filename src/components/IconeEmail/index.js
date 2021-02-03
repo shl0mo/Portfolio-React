@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 const IconeEmailStyled = styled.span`
-	maring-top: 30px;
-	padding: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 8px;
 `
 
 export const IconeEmail = ({ altura, largura }) => {

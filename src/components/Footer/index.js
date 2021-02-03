@@ -31,11 +31,11 @@ const BarraVertical = styled.div`
 const FooterStyled = styled.footer`
 	position: relative;
 	background-color: black;
-	height: 600px;
+	height: 700px;
 	width: 100vw;
 	color: white;
 	padding: 0;
-	padding-top: 35px;
+	padding-top: 45px;
 	margin-bottom: 0;
 	bottom: 0;
 `
@@ -71,7 +71,7 @@ export const Footer = () => {
 				<ContainerDadosDev>
 					<H1 margin_top={true}>Salomão Cruz {bull} 2022</H1>
 					<Git>
-						<IconeGithub altura="50" largura="50" href="http://github.com/shl0mo" color_class="c-w"/>
+						<IconeGithub altura="50" largura="50" href="http://github.com/shl0mo" color_class="c-w" margin="20px"/>
 						<a href="http://github.com/shl0mo" target="_blank"><H1 bold={true}>github.com/shl0mo</H1></a>
 					</Git>
 				</ContainerDadosDev>

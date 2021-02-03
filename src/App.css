@@ -29,8 +29,12 @@ a {
 	color: black;
 }
 
-.h-blue:hover {
+.c-b:hover {
 	color: blue;
+}
+
+.f-l {
+	float: left;
 }
 
 @media (max-width: 1130px) {

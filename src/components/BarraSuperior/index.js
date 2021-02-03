@@ -39,7 +39,7 @@ const Li = styled.li`
 	padding: 20px;
 	cursor: pointer;
 	background-color: black;
-	width: 130px;
+	width: 145px;
 
 	&:hover {
 		background-color: blue;

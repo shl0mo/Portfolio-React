@@ -7,8 +7,9 @@ const SectionStyled = styled.section`
 	align-items: center;
 	padding: 80px 16vw 150px 16vw;
 	width: 100%;
-	min-height: ${props => props.ultimo ? "800px" : "500px"};
-	border-top: 1px solid rgba(0,0,0,0.3);
+	min-height: 500px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	padding-bottom: ${props => props.ultimo ? '200px' : '150px'};
 	background-color: ${props => (props.bg_color)};
 `
 
