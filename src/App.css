@@ -1,3 +1,103 @@
+:root {
+	--box-shadow-top: 0px -5px 20px rgba(0,0,0,0.1);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-foto {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 140px;
+	margin-left: 15%;
+}
+
+.box-descricao {
+	flex: 1;
+	align-self: flex-end;
+	padding-bottom: 40px;
+	margin-left: 40px;
+	line-height: 60px;
+}
+
+.border-top-gray {
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+.display-block {
+	display: block;
+}
+
+.color-white {
+	color: white;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.container-titulo-sessao {
+	/*padding: 20px 40px;*/
+}
+
+.sessao-sobre, .sessao-projetos, .sessao-contato {
+	padding: 50px 60px;
+}
+
+.nome {
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+.funcao {	
+	font-size: 2.3em;
+	margin-left: 20px;
+}
+
+.sessao-sobre {
+	width: 100%;
+	background-color: rgba(0,0,0,0.05);
+	min-height: 500px;
+	box-shadow: var(--box-shadow-top);
+}
+
+.position-relative {
+	position: relative;
+}
+
+.sessao-projetos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0,0,0,0.1);
+	top: 0px;
+	width: 100%;
+	min-height: 500px;
+	box-shadow: var(--box-shadow-top);
+}
+
+.container-titulo-sessao {
+	display: flex;
+	align-self: flex-start;
+}
+
+.sessao-contato {
+	background-color: rgba(0,0,0,0.15);
+	width: 100%;
+	min-height: 500px;
+	box-shadow: var(--box-shadow-top);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
 .App {
   text-align: center;
 }
