@@ -5,8 +5,9 @@ header {
 	padding: 0 40px;
 	background-color: black;
 	color: white;
-	height: 90px;
-	box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
+	height: 95px;
+	/*box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
+	font-size: 1.1em;
 }
 
 nav {

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const BotaoDeployStyled = styled.button `
 	background-color: black;
-	border-radius: 5px;
+	border-radius: 0px;
 	padding: 10px 20px;
 	margin: 0;
 `

@@ -6,7 +6,7 @@ const BotaoCodigosStyled = styled.button`
 	background-color: white;
 	color: black;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 0px;
 	margin: 0;
 `
 

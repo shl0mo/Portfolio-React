@@ -7,8 +7,8 @@ const TabelaStyled = styled.table`
 	background-color: white;
 	width: 60vw;
 	height: 100px;
-	border-radius: 10px;
 	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
 `
 
 const Tr = styled.tr`

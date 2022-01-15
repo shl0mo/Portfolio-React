@@ -1,5 +1,5 @@
 :root {
-	--box-shadow-top: 0px -5px 20px rgba(0,0,0,0.1);
+	--box-shadow-top: 0px -5px 20px rgba(0,0,0,0);
 }
 
 * {
@@ -12,7 +12,7 @@
 	display: flex;
 	flex-direction: row;
 	position: relative;
-	margin-top: 70px;
+	margin-top: 65px;
 	margin-bottom: 140px;
 	margin-left: 15%;
 }
@@ -57,8 +57,8 @@
 
 .sessao-sobre {
 	width: 100%;
-	background-color: rgba(0,0,0,0.05);
-	min-height: 500px;
+	background-color: rgba(0,0,0,0.03);
+	min-height: 50px;
 	box-shadow: var(--box-shadow-top);
 }
 
@@ -70,10 +70,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.06);
 	top: 0px;
 	width: 100%;
-	min-height: 500px;
+	min-height: 50px;
 	box-shadow: var(--box-shadow-top);
 }
 
@@ -83,9 +83,9 @@
 }
 
 .sessao-contato {
-	background-color: rgba(0,0,0,0.15);
+	background-color: rgba(0,0,0,0.09);
 	width: 100%;
-	min-height: 500px;
+	min-height: 50px;
 	box-shadow: var(--box-shadow-top);
 }
 
@@ -118,5 +118,24 @@ a {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media (max-width: 1130px) {
+	.container-foto {
+		margin-left: 10%;
+	}
+}
+
+
+@media (max-width: 1030px) {
+	.container-foto {
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 970px) {
+	.container-foto {
+		margin-left: 2%;
+	}
 }
 
