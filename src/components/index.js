@@ -6,4 +6,4 @@ export * from './BotaoRedir'
 export * from './Tabela'
 export * from './BotaoDeploy'
 export * from './BotaoCodigos'
-
+export * from './BoxConteudo'

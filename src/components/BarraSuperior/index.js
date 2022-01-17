@@ -1,6 +1,4 @@
-import React from 'react'
 import styles from './styles.css'
-
 
 export function BarraSuperior (props) {
 	const { hrefSobre, hrefProjetos, hrefContato } = props	

@@ -1,7 +1,7 @@
 import './App.css'
 import styled from 'styled-components'
 
-import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela } from './components'
+import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo } from './components'
 
 const BoxDescricao = styled.div`
 	font-size: 2em;
@@ -27,12 +27,19 @@ function App() {
 	  			<div className="container-titulo-sessao">
 	  				<TituloSessao>Sobre mim</TituloSessao>
 	  			</div>
-	  			<div className="container-conteudo-sobre">
-	  				<p>Descrição</p>
+	  			<BoxConteudo>
+	  				<p>Estudante de Engenharia da Computação na Universidade Federal do Amazonas, desenvolvedor Full-Stack e entusiasta de Ciência de Dados e Cybersegurança. Possuo nível avançado em inglês e mais de 60 cursos na área de TI</p>
+	  				<br/>
 	  				<p>Habilidades</p>
-	  				<p>Certificados</p>
-	  				<BotaoRedir>Certificados</BotaoRedir>
-	  			</div>
+	  				<br/>
+	  					<p>React.js</p><br/>
+	  					<p>React Native</p><br/>
+						<p>Banco de dados Relacionais</p><br/>
+	  					<p>Bancos de dados não relacionais</p><br/>
+	  					<p>MySql</p><br/>
+	  					<p>MongoDB</p>
+	  			</BoxConteudo>
+	  			<BotaoRedir>Certificados</BotaoRedir>
 	  		</section>
 	  		<section className="sessao-projetos position-relative border-top-gray" id="projetos">
 	  			<div className="container-titulo-sessao">
@@ -45,6 +52,8 @@ function App() {
 	  			<div className="container-titulo-sessao">
 	  				<TituloSessao>Contato</TituloSessao>
 	  			</div>
+	  			<BoxConteudo>
+	  			</BoxConteudo>
 	  		</section>
 		</div>
 	  </>
