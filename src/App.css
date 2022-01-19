@@ -40,10 +40,10 @@
 .text-align-center {
 	text-align: center;
 }
-
+/*
 .sessao-sobre, .sessao-projetos, .sessao-contato {
 	padding: 50px 16vw;
-}
+}*/
 
 .nome {
 	font-size: 3.5em;
@@ -55,6 +55,7 @@
 	margin-left: 20px;
 }
 
+/*
 .sessao-sobre {
 	display: flex;
 	flex-direction: column;
@@ -63,12 +64,13 @@
 	background-color: rgba(0,0,0,0.03);
 	min-height: 50px;
 	box-shadow: var(--box-shadow-top);
-}
+}*/
 
 .position-relative {
 	position: relative;
 }
 
+/*
 .sessao-projetos {
 	display: flex;
 	flex-direction: column;
@@ -78,13 +80,14 @@
 	width: 100%;
 	min-height: 50px;
 	box-shadow: var(--box-shadow-top);
-}
+}*/
 
 .container-titulo-sessao {
 	display: flex;
 	align-self: flex-start;
 }
 
+/*
 .sessao-contato {
 	display: flex;
 	flex-direction: column;
@@ -93,37 +96,11 @@
 	width: 100%;
 	min-height: 50px;
 	box-shadow: var(--box-shadow-top);
-}
+}*/
 
 a {
 	text-decoration: none;
 	color: white;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 @media (max-width: 1130px) {
