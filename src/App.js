@@ -28,9 +28,9 @@ function App() {
 	  				<TituloSessao>Sobre mim</TituloSessao>
 	  			</div>
 	  			<BoxConteudo>
-	  				<p>Estudante de Engenharia da Computação na Universidade Federal do Amazonas, desenvolvedor Full-Stack e entusiasta de Ciência de Dados e Cybersegurança. Possuo nível avançado em inglês e mais de 60 cursos na área de TI</p>
+	  				<p>Estudante de Engenharia da Computação na Universidade Federal do Amazonas, desenvolvedor Full-Stack e entusiasta de Ciência de Dados e Cybersegurança. Possuo mais de 60 cursos na área de TI</p>
 	  				<br/>
-	  				<p>Habilidades</p>
+	  				<p><strong>Habilidades</strong></p>
 	  				<br/>
 	  					<p>React.js</p><br/>
 	  					<p>React Native</p><br/>
@@ -38,6 +38,13 @@ function App() {
 	  					<p>Bancos de dados não relacionais</p><br/>
 	  					<p>MySql</p><br/>
 	  					<p>MongoDB</p>
+	  				<br/>
+	  				<br/>
+	  				<p><strong>Idiomas</strong></p>
+	  				<br/>
+	  					<p>Inglês - avançado</p><br/>
+	  					<p>Espanhol - intermediário</p><br/>
+	  					<p>Italiano - intermediário</p><br/>
 	  			</BoxConteudo>
 	  			<BotaoRedir>Certificados</BotaoRedir>
 	  		</Section>

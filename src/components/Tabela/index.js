@@ -5,7 +5,7 @@ import { BotaoCodigos } from '../BotaoCodigos'
 
 const TabelaStyled = styled.table`
 	background-color: white;
-	width: 60vw;
+	width: 65vw;
 	min-height: 100px;
 	padding: 20px;
 	border: 1px solid rgba(0,0,0,0.2);
