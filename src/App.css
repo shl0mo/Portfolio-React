@@ -40,10 +40,6 @@
 .text-align-center {
 	text-align: center;
 }
-/*
-.sessao-sobre, .sessao-projetos, .sessao-contato {
-	padding: 50px 16vw;
-}*/
 
 .nome {
 	font-size: 3.5em;
@@ -55,48 +51,14 @@
 	margin-left: 20px;
 }
 
-/*
-.sessao-sobre {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	background-color: rgba(0,0,0,0.03);
-	min-height: 50px;
-	box-shadow: var(--box-shadow-top);
-}*/
-
 .position-relative {
 	position: relative;
 }
-
-/*
-.sessao-projetos {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: rgba(0,0,0,0.06);
-	top: 0px;
-	width: 100%;
-	min-height: 50px;
-	box-shadow: var(--box-shadow-top);
-}*/
 
 .container-titulo-sessao {
 	display: flex;
 	align-self: flex-start;
 }
-
-/*
-.sessao-contato {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: rgba(0,0,0,0.09);
-	width: 100%;
-	min-height: 50px;
-	box-shadow: var(--box-shadow-top);
-}*/
 
 a {
 	text-decoration: none;

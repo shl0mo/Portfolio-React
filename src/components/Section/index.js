@@ -1,15 +1,21 @@
 import styled from 'styled-components'
 
-//box-shadow: 0px -5px rgba(0,0,0,0.1);
-
-export const SectionStyled = styled.section`
+const SectionStyled = styled.section`
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 50px 16vw;
 	width: 100%;
 	min-height: 500px;
-	background-color: rgba(0,0,0,0.03);
+	border-top: 1px solid rgba(0,0,0,0.3);
+	background-color: ${props => (props.bg_color)};
 `
 
-
+export function Section ({ bg_color, children, id }) {
+	return (
+		<SectionStyled bg_color={bg_color} id={id}>
+			{children}
+		</SectionStyled>
+	)
+}

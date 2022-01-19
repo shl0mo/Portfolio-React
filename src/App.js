@@ -1,7 +1,7 @@
 import './App.css'
 import styled from 'styled-components'
 
-import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo, SectionStyled } from './components'
+import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo, Section } from './components'
 
 const BoxDescricao = styled.div`
 	font-size: 2em;
@@ -23,7 +23,7 @@ function App() {
 	 		</section>
 	  	</div>
 	  	<div className="container-sessao-2 position-relative">
-	  		<SectionStyled className="sessao-sobre position-relative border-top-gray" id="sobre">
+	  		<Section bg_color="rgba(0,0,0,0.03)" id="sobre">
 	  			<div className="container-titulo-sessao">
 	  				<TituloSessao>Sobre mim</TituloSessao>
 	  			</div>
@@ -40,21 +40,21 @@ function App() {
 	  					<p>MongoDB</p>
 	  			</BoxConteudo>
 	  			<BotaoRedir>Certificados</BotaoRedir>
-	  		</SectionStyled>
-	  		<SectionStyled className="sessao-projetos position-relative border-top-gray" id="projetos">
+	  		</Section>
+	  		<Section bg_color="rgba(0,0,0,0.06)" id="projetos">
 	  			<div className="container-titulo-sessao">
 	  				<TituloSessao>Alguns projetos</TituloSessao>
 	  			</div>
 	  			<Tabela></Tabela>
 	  			<BotaoRedir>Ver todos os projetos</BotaoRedir>
-	  		</SectionStyled>
-	  		<SectionStyled className="sessao-contato position-relative border-top-gray" id="contato">
+	  		</Section>
+	  		<Section bg_color="rgba(0,0,0,0.09)" id="contato">
 	  			<div className="container-titulo-sessao">
 	  				<TituloSessao>Contato</TituloSessao>
 	  			</div>
 	  			<BoxConteudo>
 	  			</BoxConteudo>
-	  		</SectionStyled>
+	  		</Section>
 		</div>
 	  </>
   );
