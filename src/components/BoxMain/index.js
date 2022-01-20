@@ -6,6 +6,7 @@ const BoxMainStyled = styled.div`
 	padding-bottom: 40px;
 	margin-left: 40px;
 	line-height: 60px;
+	cursor: default;
 `
 
 const Nome = styled.span`
@@ -20,11 +21,20 @@ const Funcao = styled.span`
 	display: block;
 `
 
+const BarraTag = styled.span`
+	&:hover {
+		color: blue;
+	}
+`
+
 export function BoxMain() {
+	const abre_tag = "<"
+	const barra_tag = "/"
+	const fecha_tag = ">"
 	return (
 		<BoxMainStyled>
 			<Nome>Salomão Cruz</Nome>
-			<Funcao>Web Full-Stack Developer</Funcao>
+			<Funcao>{abre_tag}Web Full-Stack Developer<BarraTag>{barra_tag}</BarraTag>{fecha_tag}</Funcao>
 		</BoxMainStyled>
 	)
 }

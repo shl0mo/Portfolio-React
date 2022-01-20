@@ -8,6 +8,7 @@ const BoxDescricao = styled.div`
 `
 
 function App() {
+
   return (
 	  <>
 	  	<BarraSuperior hrefSobre="#sobre" hrefProjetos="#projetos" hrefContato="#contato"/>
@@ -17,7 +18,7 @@ function App() {
 	  	</SectionMain>
 	  	<Section bg_color="rgba(0,0,0,0.03)" id="sobre">
 	  		<ContainerTituloSessao>
-	  			<TituloSessao>Sobre mim</TituloSessao>
+	 			 <TituloSessao>Sobre mim</TituloSessao>
 	  		</ContainerTituloSessao>
 	  		<BoxConteudo>
 	  			<p>Estudante de Engenharia da Computação na Universidade Federal do Amazonas, desenvolvedor Full-Stack e entusiasta de Ciência de Dados e Cybersegurança. Possuo mais de 60 cursos na área de TI</p>
