@@ -5,7 +5,7 @@ const SectionStyled = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 50px 16vw;
+	padding: 80px 16vw 150px 16vw;
 	width: 100%;
 	min-height: 500px;
 	border-top: 1px solid rgba(0,0,0,0.3);

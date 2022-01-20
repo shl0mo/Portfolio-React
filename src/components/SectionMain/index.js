@@ -4,7 +4,7 @@ export const SectionMain = styled.div`
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	margin-top: 65px;
-	margin-bottom: 140px;
+	height: 610px;
 	margin-left: 15%;
+	padding-bottom: 130px;
 `

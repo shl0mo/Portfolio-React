@@ -4,11 +4,16 @@ const Header = styled.header`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 40px;
+	padding: 0 40px 0 60px;
 	background-color: black;
 	color: white;
-	height: 95px;
-	font-size: 1.1em;
+	height: 100px;
+	font-size: 1.15em;
+`
+
+const Logo = styled.span`
+	font-size: 2em;
+	font-family: 'URW Gothic Book';
 `
 
 const Nav = styled.nav`
@@ -27,10 +32,12 @@ const Ul = styled.ul`
 const Li = styled.li`
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	height: 100%;
 	padding: 20px;
 	cursor: pointer;
 	background-color: black;
+	width: 130px;
 
 	&:hover {
 		background-color: blue;
@@ -46,18 +53,25 @@ const A = styled.a`
 
 
 
-export function BarraSuperior (props) {
-	const { hrefSobre, hrefProjetos, hrefContato } = props	
+export function BarraSuperior ({ hrefSobre, hrefProjetos, hrefContato, hrefHome, hrefCertificados }) {
+	const array_href = window.location.href.split('/')
+	const pagina = array_href[array_href.length - 1]
+	let array_paginas = []
+	if (pagina === '' || pagina == '#sobre' || pagina == '#projetos' || pagina == '#contato') {
+		array_paginas = [<A href={hrefSobre}><Li>Sobre mim</Li></A>, <A href={hrefProjetos}><Li>Projetos</Li></A>, <A href={hrefContato}><Li>Contato</Li></A>]
+	} else if (pagina === 'certificados') {
+		array_paginas = [<A href={hrefHome}><Li>Home</Li></A>, <A href={hrefProjetos}><Li>Projetos</Li></A>] 
+	} else if (pagina === 'projetos') {
+		array_paginas = [<A href={hrefHome}><Li>Home</Li></A>,<A href={hrefCertificados}><Li>Certificados</Li></A>]
+	}
 	return (
 		<Header>
-			<span>
-				sc-dev
-			</span>
+			<Logo>
+				SC-Dev
+			</Logo>
 			<Nav>
 				<Ul>
-					<A href={hrefSobre}><Li>Sobre mim</Li></A>
-					<A href={hrefProjetos}><Li>Projetos</Li></A>
-					<A href={hrefContato}><Li>Contato</Li></A>
+					{array_paginas}
 				</Ul>
 			</Nav>
 		</Header>

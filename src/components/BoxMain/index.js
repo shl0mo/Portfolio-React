@@ -4,7 +4,7 @@ const BoxMainStyled = styled.div`
 	flex: 1;
 	align-self: flex-end;
 	padding-bottom: 40px;
-	margin-left: 40px;
+	margin-left: 30px;
 	line-height: 60px;
 	cursor: default;
 `
@@ -23,6 +23,7 @@ const Funcao = styled.span`
 
 const BarraTag = styled.span`
 	&:hover {
+		font-weight: bold;
 		color: blue;
 	}
 `

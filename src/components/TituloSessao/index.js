@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+const BoxTituloSessao = styled.span`
+	display: flex;
+	flex-direction: row;
+`
+
 const TituloSessaoStyled = styled.h2`
 	display: flex;
 	justify-content: flex-start;
@@ -23,10 +28,10 @@ const Rect = styled.span`
 export function TituloSessao({ children }) {
 	const rect = '▮'
 	return (
-		<>
+		<BoxTituloSessao>
 			<Rect>{rect}</Rect><TituloSessaoStyled>
 				{children}
 			</TituloSessaoStyled>
-		</>
+		</BoxTituloSessao>
 	)
 }

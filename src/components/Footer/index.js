@@ -1,10 +1,13 @@
 import styled from 'styled-components'
 
 export const Footer = styled.footer`
-	position: absolute;
+	position: relative;
 	background-color: black;
-	height: 300px;
-	bottom: 0;
+	height: 400px;
 	width: 100vw;
 	color: white;
+	padding: 0;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	bottom: 0;
 `

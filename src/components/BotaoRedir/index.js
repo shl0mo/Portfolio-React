@@ -1,10 +1,28 @@
 import styled from 'styled-components'
-import styles from './styles.css'
 
-export function BotaoRedir({children}) {
+const BotaoRedirStyled = styled.button`
+	border: none;
+	background-color: black;
+	color: white;
+	padding: 20px 80px;
+	font-size: 1.3em;
+	cursor: pointer;
+	margin-top: 20px;
+
+	&:hover {
+		background-color: blue;
+		color: white;
+	}
+`
+
+export function BotaoRedir({href, children}) {
 	return (
-		<button>
-			{children}
-		</button>
+		<span>
+		<a href={href}>
+			<BotaoRedirStyled>
+					{children}
+			</BotaoRedirStyled>
+		</a>
+		</span>
 	)
 }

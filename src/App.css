@@ -8,31 +8,27 @@
 	box-sizing: border-box;
 }
 
-.color-white {
-	color: white;
-}
-
 a {
 	text-decoration: none;
 	color: white;
 }
 
 @media (max-width: 1130px) {
-	.container-foto {
-		margin-left: 10%;
+	.nwrap {
+		margin-left: 10px;
 	}
 }
 
 
 @media (max-width: 1030px) {
-	.container-foto {
-		margin-left: 5%;
+	.nwrap {
+		margin-left: 2%;
 	}
 }
 
 @media (max-width: 970px) {
-	.container-foto {
-		margin-left: 2%;
+	.nwrap {
+		margin-left: 5px;
 	}
 }
 
