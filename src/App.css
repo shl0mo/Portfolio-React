@@ -8,56 +8,8 @@
 	box-sizing: border-box;
 }
 
-.container-foto {
-	display: flex;
-	flex-direction: row;
-	position: relative;
-	margin-top: 65px;
-	margin-bottom: 140px;
-	margin-left: 15%;
-}
-
-.box-descricao {
-	flex: 1;
-	align-self: flex-end;
-	padding-bottom: 40px;
-	margin-left: 40px;
-	line-height: 60px;
-}
-
-.border-top-gray {
-	border-top: 1px solid rgba(0,0,0,0.3);
-}
-
-.display-block {
-	display: block;
-}
-
 .color-white {
 	color: white;
-}
-
-.text-align-center {
-	text-align: center;
-}
-
-.nome {
-	font-size: 3.5em;
-	font-weight: bold;
-}
-
-.funcao {	
-	font-size: 2.3em;
-	margin-left: 20px;
-}
-
-.position-relative {
-	position: relative;
-}
-
-.container-titulo-sessao {
-	display: flex;
-	align-self: flex-start;
 }
 
 a {

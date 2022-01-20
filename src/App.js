@@ -1,7 +1,7 @@
 import './App.css'
 import styled from 'styled-components'
 
-import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo, Section } from './components'
+import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo, Section, Footer, SectionMain, BoxMain, ContainerTituloSessao } from './components'
 
 const BoxDescricao = styled.div`
 	font-size: 2em;
@@ -11,58 +11,49 @@ function App() {
   return (
 	  <>
 	  	<BarraSuperior hrefSobre="#sobre" hrefProjetos="#projetos" hrefContato="#contato"/>
-	  	<div className="container-sessao-1 position-relative">	
-	  		<section className="sessao-main">
-	  			<div className="container-foto">
-	  				<BoxFoto/>
-	  				<div className="box-descricao">
-	  					<span className="nome display-block">Salomão Cruz</span>
-	  					<span className="funcao display-block">Web Full Stack Developer</span>
-	  				</div>
-	  			</div>
-	 		</section>
-	  	</div>
-	  	<div className="container-sessao-2 position-relative">
-	  		<Section bg_color="rgba(0,0,0,0.03)" id="sobre">
-	  			<div className="container-titulo-sessao">
-	  				<TituloSessao>Sobre mim</TituloSessao>
-	  			</div>
-	  			<BoxConteudo>
-	  				<p>Estudante de Engenharia da Computação na Universidade Federal do Amazonas, desenvolvedor Full-Stack e entusiasta de Ciência de Dados e Cybersegurança. Possuo mais de 60 cursos na área de TI</p>
-	  				<br/>
-	  				<p><strong>Habilidades</strong></p>
-	  				<br/>
-	  					<p>React.js</p><br/>
-	  					<p>React Native</p><br/>
-						<p>Banco de dados Relacionais</p><br/>
-	  					<p>Bancos de dados não relacionais</p><br/>
-	  					<p>MySql</p><br/>
-	  					<p>MongoDB</p>
-	  				<br/>
-	  				<br/>
-	  				<p><strong>Idiomas</strong></p>
-	  				<br/>
-	  					<p>Inglês - avançado</p><br/>
-	  					<p>Espanhol - intermediário</p><br/>
-	  					<p>Italiano - intermediário</p><br/>
-	  			</BoxConteudo>
-	  			<BotaoRedir>Certificados</BotaoRedir>
-	  		</Section>
-	  		<Section bg_color="rgba(0,0,0,0.06)" id="projetos">
-	  			<div className="container-titulo-sessao">
-	  				<TituloSessao>Alguns projetos</TituloSessao>
-	  			</div>
-	  			<Tabela></Tabela>
-	  			<BotaoRedir>Ver todos os projetos</BotaoRedir>
-	  		</Section>
-	  		<Section bg_color="rgba(0,0,0,0.09)" id="contato">
-	  			<div className="container-titulo-sessao">
-	  				<TituloSessao>Contato</TituloSessao>
-	  			</div>
-	  			<BoxConteudo>
-	  			</BoxConteudo>
-	  		</Section>
-		</div>
+	  	<SectionMain>
+	  		<BoxFoto/>
+	  		<BoxMain/>
+	  	</SectionMain>
+	  	<Section bg_color="rgba(0,0,0,0.03)" id="sobre">
+	  		<ContainerTituloSessao>
+	  			<TituloSessao>Sobre mim</TituloSessao>
+	  		</ContainerTituloSessao>
+	  		<BoxConteudo>
+	  			<p>Estudante de Engenharia da Computação na Universidade Federal do Amazonas, desenvolvedor Full-Stack e entusiasta de Ciência de Dados e Cybersegurança. Possuo mais de 60 cursos na área de TI</p>
+	  			<br/>
+	  			<p><strong>Habilidades</strong></p>
+	  			<br/>
+	  				<p>React.js</p><br/>
+	  				<p>React Native</p><br/>
+					<p>Banco de dados Relacionais</p><br/>
+	  				<p>Bancos de dados não relacionais</p><br/>
+	  				<p>MySql</p><br/>
+	  				<p>MongoDB</p>
+	  			<br/>
+	  			<br/>
+	  			<p><strong>Idiomas</strong></p>
+	  			<br/>
+	  				<p>Inglês - avançado</p><br/>
+	  				<p>Espanhol - intermediário</p><br/>
+	  				<p>Italiano - intermediário</p><br/>
+	  		</BoxConteudo>
+	  		<BotaoRedir>Certificados</BotaoRedir>
+	  	</Section>
+	  	<Section bg_color="rgba(0,0,0,0.06)" id="projetos">
+	  		<ContainerTituloSessao>
+	  			<TituloSessao>Alguns projetos</TituloSessao>
+	  		</ContainerTituloSessao>
+	  		<Tabela></Tabela>
+	  		<BotaoRedir>Ver todos os projetos</BotaoRedir>
+	  	</Section>
+	  	<Section bg_color="rgba(0,0,0,0.09)" id="contato">
+	  		<ContainerTituloSessao>
+	  			<TituloSessao>Contato</TituloSessao>
+	  		</ContainerTituloSessao>
+	  		<BoxConteudo>
+	  		</BoxConteudo>
+	  	</Section>
 	  </>
   );
 }
