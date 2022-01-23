@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { Logo } from '../BarraSuperior' 
 
-export const Footer = styled.footer`
+const FooterStyled = styled.footer`
 	position: relative;
 	background-color: black;
 	height: 400px;
@@ -11,3 +12,10 @@ export const Footer = styled.footer`
 	box-sizing: border-box;
 	bottom: 0;
 `
+
+export const Footer = () => {
+	return (
+		<FooterStyled>
+		</FooterStyled>
+	)
+}

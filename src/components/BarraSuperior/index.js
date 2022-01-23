@@ -11,7 +11,9 @@ const Header = styled.header`
 	font-size: 1.15em;
 `
 
-const Logo = styled.span`
+export const Logo = styled.span`
+	display: flex;
+	align-self: center;
 	font-size: 2em;
 	font-family: 'PublicPixel';
 `
@@ -66,9 +68,11 @@ export function BarraSuperior ({ hrefSobre, hrefProjetos, hrefContato, hrefHome,
 	}
 	return (
 		<Header>
-			<Logo>
-				SC-Dev
-			</Logo>
+			<A href={hrefHome}>
+				<Logo>
+					SC-Dev
+				</Logo>
+			</A>
 			<Nav>
 				<Ul>
 					{array_paginas}
