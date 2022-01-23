@@ -13,7 +13,7 @@ const Header = styled.header`
 
 const Logo = styled.span`
 	font-size: 2em;
-	font-family: 'URW Gothic Book';
+	font-family: 'PublicPixel';
 `
 
 const Nav = styled.nav`
