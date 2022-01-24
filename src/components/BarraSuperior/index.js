@@ -14,7 +14,7 @@ const Header = styled.header`
 export const Logo = styled.span`
 	display: flex;
 	align-self: center;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-family: 'PublicPixel';
 `
 

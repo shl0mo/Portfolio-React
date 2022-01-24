@@ -8,6 +8,7 @@ const BotaoRedirStyled = styled.button`
 	font-size: 1.3em;
 	cursor: pointer;
 	margin-top: 20px;
+	width: 355.39px;
 
 	&:hover {
 		background-color: blue;
