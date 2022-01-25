@@ -65,7 +65,7 @@ function App() {
 		  				<IconeLinkedin altura="50" largura="50"/>
 		  			</span>
 		  			<span>
-		  				<IconeGithub altura="50" largura="50"/>
+		  				<IconeGithub altura="50" largura="50" href="http://github.com/shl0mo" color_class="c-b"/>
 		  			</span>
 	  			</BoxConteudo>
 		  		<BotaoRedir>Enviar email</BotaoRedir>

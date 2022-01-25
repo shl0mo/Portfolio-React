@@ -21,6 +21,14 @@ a {
 	color: white;
 }
 
+.c-w {
+	color: white;
+}
+
+.c-b {
+	color: black;
+}
+
 @media (max-width: 1130px) {
 	.nwrap {
 		margin-left: 10px;
