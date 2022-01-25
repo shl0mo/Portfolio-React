@@ -20,7 +20,7 @@ export const BotaoPrimario = ({ href }) => {
 	if (pagina === '' || pagina === '#sobre' || pagina === '#projetos' || pagina === '#contato' || pagina === 'projetos') {
 		label = 'Deploy'
 	} else if (pagina === 'certificados') {
-		label = 'Ver credencial'
+		label = 'Ver certificado'
 	}
 	return (
 		<a href={href}>
