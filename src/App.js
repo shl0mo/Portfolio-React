@@ -10,6 +10,7 @@ const BoxDescricao = styled.div`
 function App() {
   const host = 'http://localhost'
   const porta = '3000'
+  const tam_icones = 80
   if (window.location.href === `${host}:${porta}/` || window.location.href === `${host}:${porta}/#sobre` || window.location.href === `${host}:${porta}/#projetos` || window.location.href === `${host}:${porta}/#contato`) {
 	  return (
 		  <>
@@ -25,14 +26,31 @@ function App() {
 		  		<BoxConteudo>
 	  				<p>Desenvolvedor Full-Stack, estudante de Engenharia da Computação na Universidade Federal do Amazonas e de Segurança da Informação na Unip. Entusiasta de Ciência de Dados e Cybersegurança, possuo mais de 60 cursos na área de TI</p>
 	  				<br/>
-	  				<p><strong>Habilidades</strong></p>
+	  				<p><strong>Hard Skills</strong></p>
 		  			<br/>
-		  				<p>React.js</p><br/>
-	  					<p>React Native</p><br/>
-						<p>Banco de dados Relacionais</p><br/>
-	  					<p>Bancos de dados não relacionais</p><br/>
-		  				<p>MySql</p><br/>
-		  				<p>MongoDB</p>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="react" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg" alt="jquery" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vue" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="node" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width={tam_icones} height={tam_icones}/>
+		  						  				
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width={tam_icones} height={tam_icones}/>	
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" alt="java" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-line.svg" alt="c" width={tam_icones} height={tam_icones}/>
+		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="r" width={tam_icones} height={tam_icones}/>
+		  				
+		  				
 	  				<br/>
 	  				<br/>
 		  			<p><strong>Idiomas</strong></p>
