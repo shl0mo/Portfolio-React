@@ -21,7 +21,7 @@ const BarraVertical = styled.div`
 	align-self: center;
 	position: relative;
 	width: 1px;
-	height: 340px;
+	height: 360px;
 	margin: 60px 20px 0px 10px;
 	background-color: white;
 	float: left;
@@ -31,7 +31,7 @@ const BarraVertical = styled.div`
 const FooterStyled = styled.footer`
 	position: relative;
 	background-color: black;
-	height: 500px;
+	height: 600px;
 	width: 100vw;
 	color: white;
 	padding: 0;
