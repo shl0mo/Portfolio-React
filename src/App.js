@@ -50,7 +50,7 @@ function App() {
 		  		<TabelaProjetos></TabelaProjetos>
 	  			<BotaoRedir href="/projetos">Ver todos os projetos</BotaoRedir>
 		  	</Section>
-		  	<Section bg_color="rgba(0,0,0,0.09)" id="contato" className="pb-20vh">
+		  	<Section bg_color="rgba(0,0,0,0.09)" id="contato" ultimo={true}>
 	  			<ContainerTituloSessao>
 	  				<TituloSessao>Contato</TituloSessao>
 		  		</ContainerTituloSessao>

@@ -35,6 +35,7 @@ const FooterStyled = styled.footer`
 	width: 100vw;
 	color: white;
 	padding: 0;
+	padding-top: 30px;
 	margin-bottom: 0;
 	bottom: 0;
 `

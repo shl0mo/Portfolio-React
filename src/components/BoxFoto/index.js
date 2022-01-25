@@ -9,5 +9,4 @@ export const BoxFoto = styled.div`
 	border-radius: 200px;
 	background-image: url(${foto});
 	background-size: contain;
-	box-shadow: 2px -2px 10px rgba(0,0,0,0.2);
 `
