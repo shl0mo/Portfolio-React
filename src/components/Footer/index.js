@@ -21,7 +21,7 @@ const BarraVertical = styled.div`
 	align-self: center;
 	position: relative;
 	width: 1px;
-	height: 360px;
+	height: 340px;
 	margin: 60px 20px 0px 10px;
 	background-color: white;
 	float: left;
@@ -35,7 +35,7 @@ const FooterStyled = styled.footer`
 	width: 100vw;
 	color: white;
 	padding: 0;
-	padding-top: 30px;
+	padding-top: 35px;
 	margin-bottom: 0;
 	bottom: 0;
 `
@@ -51,6 +51,7 @@ const H1 = styled.h1`
 	float: left;
 	font-weight: normal;
 	margin-top: ${props => props.margin_top ? "120px" : "0px" };
+	font-weight: ${props => props.bold ? "bold" : "normal"};
 `
 
 const Git = styled.div`
@@ -71,7 +72,7 @@ export const Footer = () => {
 					<H1 margin_top={true}>Salomão Cruz {bull} 2022</H1>
 					<Git>
 						<IconeGithub altura="50" largura="50" href="http://github.com/shl0mo" color_class="c-w"/>
-						<a href="http://github.com/shl0mo" target="_blank"><h1>github.com/shl0mo</h1></a>
+						<a href="http://github.com/shl0mo" target="_blank"><H1 bold={true}>github.com/shl0mo</H1></a>
 					</Git>
 				</ContainerDadosDev>
 			</FooterStyled>

@@ -59,7 +59,7 @@ export function BarraSuperior ({ hrefSobre, hrefProjetos, hrefContato, hrefHome,
 	const array_href = window.location.href.split('/')
 	const pagina = array_href[array_href.length - 1]
 	let array_paginas = []
-	if (pagina === '' || pagina == '#sobre' || pagina == '#projetos' || pagina == '#contato') {
+	if (pagina === '' || pagina === '#sobre' || pagina === '#projetos' || pagina === '#contato') {
 		array_paginas = [<A href={hrefSobre}><Li>Sobre mim</Li></A>, <A href={hrefProjetos}><Li>Projetos</Li></A>, <A href={hrefContato}><Li>Contato</Li></A>]
 	} else if (pagina === 'certificados') {
 		array_paginas = [<A href={hrefHome}><Li>Home</Li></A>, <A href={hrefProjetos}><Li>Projetos</Li></A>] 

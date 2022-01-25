@@ -11,6 +11,7 @@ function App() {
   const host = 'http://localhost'
   const porta = '3000'
   const tam_icones = 80
+  const rect = '▮'
   if (window.location.href === `${host}:${porta}/` || window.location.href === `${host}:${porta}/#sobre` || window.location.href === `${host}:${porta}/#projetos` || window.location.href === `${host}:${porta}/#contato`) {
 	  return (
 		  <>
@@ -26,7 +27,7 @@ function App() {
 		  		<BoxConteudo>
 	  				<p>Desenvolvedor Full-Stack, estudante de Engenharia da Computação na Universidade Federal do Amazonas e de Segurança da Informação na Unip. Entusiasta de Ciência de Dados e Cybersegurança, possuo mais de 60 cursos na área de TI</p>
 	  				<br/>
-	  				<p><strong>Hard Skills</strong></p>
+	  				<p><strong>{rect} Hard Skills</strong></p>
 		  			<br/>
 		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="react" width={tam_icones} height={tam_icones}/>
 		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width={tam_icones} height={tam_icones}/>
@@ -49,7 +50,9 @@ function App() {
 		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width={tam_icones} height={tam_icones}/>
 		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-line.svg" alt="c" width={tam_icones} height={tam_icones}/>
 		  				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="r" width={tam_icones} height={tam_icones}/>
-		  				
+		  			<br/>
+		  			<br/>
+		  			<p><strong>{rect} Soft Skills</strong></p>
 		  				
 	  				<br/>
 	  				<br/>
@@ -73,12 +76,12 @@ function App() {
 	  				<TituloSessao>Contato</TituloSessao>
 		  		</ContainerTituloSessao>
 		  		<BoxConteudo>
-		  			<p><strong>Telefone</strong></p>
+		  			<p><strong>{rect} Telefone</strong></p>
 		  				<IconeTelefone altura="25" largura="25"/>
 		  			<br/>
-		  			<span><strong>Email</strong></span><br/>
+		  			<span><strong>{rect} Email</strong></span><br/>
 			  			<IconeEmail altura="25" lagura="25"/>	  			
-		  			<p><strong>Redes Sociais</strong></p>
+		  			<p><strong>{rect} Redes Sociais</strong></p>
 		  			<span>
 		  				<IconeLinkedin altura="50" largura="50"/>
 		  			</span>

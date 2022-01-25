@@ -36,24 +36,112 @@ export const Td = styled.td`
 `
 
 export function TabelaProjetos () {
+	const array_href = window.location.href.split('/')
+	const pagina = array_href[array_href.length - 1]
+	let linhas_tabela = []
+	if (pagina === '' || pagina === '#sobre' || pagina === '#projetos' || pagina === '#contato') {
+		linhas_tabela = [
+			<Tr>
+				<Td>Portifólio</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Verificador de sintaxe de email</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Calculadora</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+		]
+	} else if (pagina === 'projetos') {
+		linhas_tabela = [
+			<Tr>
+				<Td>Portifólio</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Verificador de sintaxe de email</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Calculadora</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Jogo Genius</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Encurtador de URL</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Monitorador do uso da RAM</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Jogo da memória</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,	
+			<Tr>
+				<Td>Consulta de DDD</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Aplicativo de cálculo do IMC</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Calculadora de operações de matrizes</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Sudoku em C</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Blackjack em Java</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Análise de dados - cidades e países</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Jogo Tabuada - Python</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+			<Tr>
+				<Td>Filtros de imagens - passa-baixa e passa-alta</Td>
+				<Td><BotaoSecundario/></Td>
+				<Td><BotaoPrimario/></Td>
+			</Tr>,
+
+
+		]
+	}
 	return (
 		<TabelaProjetosStyled>
 			<tbody>
-				<Tr>
-					<Td>Monitorador de Recursos do PC</Td>
-					<Td><BotaoSecundario/></Td>
-					<Td><BotaoPrimario/></Td>
-				</Tr>
-				<Tr>
-					<Td>Jogo da Memória</Td>
-					<Td><BotaoSecundario/></Td>
-					<Td><BotaoPrimario/></Td>
-				</Tr>
-				<Tr>
-					<Td>Loja Virtual</Td>
-					<Td><BotaoSecundario/></Td>
-					<Td><BotaoPrimario/></Td>
-				</Tr>
+				{linhas_tabela}
 			</tbody>
 		</TabelaProjetosStyled>
 	)
