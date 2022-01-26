@@ -10,7 +10,6 @@ const BoxDescricao = styled.div`
 function App() {
   const host = 'http://localhost'
   const porta = '3000'
-  const tam_icones = 80
   const rect = '▮'
   if (window.location.href === `${host}:${porta}/` || window.location.href === `${host}:${porta}/#sobre` || window.location.href === `${host}:${porta}/#projetos` || window.location.href === `${host}:${porta}/#contato`) {
 	  return (
@@ -28,11 +27,7 @@ function App() {
 	  				<p>Desenvolvedor Full-Stack, estudante de Engenharia da Computação na Universidade Federal do Amazonas e de Segurança da Informação na Unip. Entusiasta de Ciência de Dados e Cybersegurança, possuo mais de 60 cursos na área de TI</p>
 	  				<br/>
 	  				<p><strong>{rect} Hard Skills</strong></p>
-		  			<div className="hard-skills-container">
-		  			<br/>
 		  				<ContainerLogoTecnologia/>
-		  			</div>
-		  			<br/>
 		  			<br/>
 		  			<p><strong>{rect} Soft Skills</strong></p>
 		  				
@@ -65,7 +60,7 @@ function App() {
 			  			<IconeEmail altura="25" lagura="25"/>	  			
 		  			<p><strong>{rect} Redes Sociais</strong></p>
 		  			<span>
-		  				<IconeLinkedin altura="50" largura="50"/>
+		  				<IconeLinkedin altura="50" largura="50" href="http://linkedin.com/in/salomao-cruz" color_class="c-b"/>
 		  			</span>
 		  			<span>
 		  				<IconeGithub altura="50" largura="50" href="http://github.com/shl0mo" color_class="c-b"/>

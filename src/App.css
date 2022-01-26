@@ -29,19 +29,8 @@ a {
 	color: black;
 }
 
-.gray {
-	filter: grayscale(1);
-	cursor: pointer;
-	padding: 5px;
-}
-
-.gray:hover {
-	filter: grayscale(0);
-	padding: 0px;
-}
-
-.hard-skills-container {
-	text-align: center;
+.h-blue:hover {
+	color: blue;
 }
 
 @media (max-width: 1130px) {
@@ -62,4 +51,3 @@ a {
 		margin-left: 5px;
 	}
 }
-
