@@ -18,7 +18,7 @@ const BotaoSecundarioStyled = styled.button`
 
 export const BotaoSecundario = ({ href }) => {
 	return (
-		<a href={href}>
+		<a href={href} target="_blank">
 			<BotaoSecundarioStyled>Códigos</BotaoSecundarioStyled>
 		</a>
 	)

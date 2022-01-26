@@ -23,7 +23,7 @@ export const BotaoPrimario = ({ href }) => {
 		label = 'Ver certificado'
 	}
 	return (
-		<a href={href}>
+		<a href={href} target="_blank">
 			<BotaoPrimarioStyled>{label}</BotaoPrimarioStyled>
 		</a>
 	)
