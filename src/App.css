@@ -29,6 +29,21 @@ a {
 	color: black;
 }
 
+.gray {
+	filter: grayscale(1);
+	cursor: pointer;
+	padding: 5px;
+}
+
+.gray:hover {
+	filter: grayscale(0);
+	padding: 0px;
+}
+
+.hard-skills-container {
+	text-align: center;
+}
+
 @media (max-width: 1130px) {
 	.nwrap {
 		margin-left: 10px;
