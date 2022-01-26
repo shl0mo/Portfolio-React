@@ -15,7 +15,7 @@ export const LogoTecnologia = ({ href, src, alt }) => {
 	const height = 80
 	const width = 80
 	return (
-		<a href={href}>
+		<a href={href} target="_blank">
 			<LogoTecnologiaStyled src={src} height={height} width={width} alt={alt}/>
 		</a>
 	)
