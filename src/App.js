@@ -1,7 +1,7 @@
 import './App.css'
 import styled from 'styled-components'
 
-import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo, Section, Footer, SectionMain, BoxMain, ContainerTituloSessao, TabelaProjetos, TabelaCertificados, TituloPagina, ContainerPagina, IconeTelefone, IconeEmail, IconeLinkedin, IconeGithub } from './components'
+import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, Tabela, BoxConteudo, Section, Footer, SectionMain, BoxMain, ContainerTituloSessao, TabelaProjetos, TabelaCertificados, TituloPagina, ContainerPagina, IconeTelefone, IconeEmail, IconeLinkedin, IconeGithub, ContainerLogoTecnologia } from './components'
 
 const BoxDescricao = styled.div`
 	font-size: 2em;
@@ -30,26 +30,7 @@ function App() {
 	  				<p><strong>{rect} Hard Skills</strong></p>
 		  			<div className="hard-skills-container">
 		  			<br/>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="react" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg" alt="jquery" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vue" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="node" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width={tam_icones} height={tam_icones} className="gray"/></a>					  				
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" alt="java" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-line.svg" alt="c" width={tam_icones} height={tam_icones} className="gray"/></a>
-		  				<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="r" width={tam_icones} height={tam_icones} className="gray"/></a>
+		  				<ContainerLogoTecnologia/>
 		  			</div>
 		  			<br/>
 		  			<br/>
