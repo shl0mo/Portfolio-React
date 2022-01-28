@@ -62,7 +62,9 @@ export const Home = () => {
 		  				<IconeLinkedin altura="65" largura="65" href="http://linkedin.com/in/salomao-cruz" color_class="c-b" margin="0px 25px 0px 30px"/>
 		  				<IconeGithub altura="65" largura="65" href="http://github.com/shl0mo" color_class="c-b"/>
 	  			</BoxConteudo>
+	  			<a href="mailto:scc@icomp.ufam.edu.br?">
 		  		<BotaoRedir>Enviar email</BotaoRedir>
+		  		</a>
 		  	</Section>
 		  	<Footer/>
 		  </>
