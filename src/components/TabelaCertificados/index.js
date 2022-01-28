@@ -441,6 +441,14 @@ export const TabelaCertificados = () => {
 						<BotaoPrimario href="https://drive.google.com/file/d/1LQiQPxHYyqV6w67vHxMyjjRD8eFSQd_O/view?usp=sharing"/>
 					</Td>
 				</Tr>
+				<Tr>
+					<Td>
+						Comunicação & Oratória - Escola Conquer
+					</Td>
+					<Td>
+						<BotaoPrimario href="https://drive.google.com/file/d/1xyj1r7HqwlAxFCP4Tauw6PMjKVYpPRUG/view"/>
+					</Td>
+				</Tr>
 			</tbody>
 		</TabelaCertificadosStyled>
 	)

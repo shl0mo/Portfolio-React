@@ -60,11 +60,21 @@ export function BarraSuperior ({ hrefSobre, hrefProjetos, hrefContato, hrefHome,
 	const pagina = array_href[array_href.length - 1]
 	let array_paginas = []
 	if (pagina === '' || pagina === '#sobre' || pagina === '#projetos' || pagina === '#contato') {
-		array_paginas = [<A href={hrefSobre}><Li>Sobre mim</Li></A>, <A href={hrefProjetos}><Li>Projetos</Li></A>, <A href={hrefContato}><Li>Contato</Li></A>]
+		array_paginas = [
+			<A href={hrefSobre} key='bsh-1'><Li>Sobre mim</Li></A>,
+			<A href={hrefProjetos} key='bsh-2'><Li>Projetos</Li></A>,
+			<A href={hrefContato} key='bsh-3'><Li>Contato</Li></A>
+		]
 	} else if (pagina === 'certificados') {
-		array_paginas = [<A href={hrefHome}><Li>Home</Li></A>, <A href={hrefProjetos}><Li>Projetos</Li></A>] 
+		array_paginas = [
+			<A href={hrefHome} key={'bsc-1'}><Li>Home</Li></A>,
+			<A href={hrefProjetos} key='bsc-2'><Li>Projetos</Li></A>
+		] 
 	} else if (pagina === 'projetos') {
-		array_paginas = [<A href={hrefHome}><Li>Home</Li></A>,<A href={hrefCertificados}><Li>Certificados</Li></A>]
+		array_paginas = [
+			<A href={hrefHome} key='bsp-1'><Li>Home</Li></A>,
+			<A href={hrefCertificados} key='bsp-2'><Li>Certificados</Li></A>
+		]
 	}
 	return (
 		<Header>

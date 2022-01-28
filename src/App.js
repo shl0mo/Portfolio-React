@@ -28,15 +28,18 @@ function App() {
 		  			<ContainerLogoTecnologia/>
 		  			<TituloSubsessao>Soft Skills</TituloSubsessao>
 		  			<UlSubsessao>
+		  				<ItemSubsessao>Proativo</ItemSubsessao>
 		  				<ItemSubsessao>Autodidata</ItemSubsessao>  	
-		  				<ItemSubsessao>Proativo</ItemSubsessao>	
 		  				<ItemSubsessao>Perfil analítico</ItemSubsessao>
+		  				<ItemSubsessao>Gestão de tempo</ItemSubsessao>
+		  				<ItemSubsessao>Trabalho em equipe</ItemSubsessao>
+		  				<ItemSubsessao>Habilidades de comunicação</ItemSubsessao>
 		  			</UlSubsessao>
 		  			<TituloSubsessao>Idiomas</TituloSubsessao>
 	  				<UlSubsessao>	
 	  					<ItemSubsessao>Inglês - avançado</ItemSubsessao>
-	  					<ItemSubsessao>Espanhol - intermediário</ItemSubsessao>
 	  					<ItemSubsessao>Italiano - intermediário</ItemSubsessao>
+	  					<ItemSubsessao>Espanhol - intermediário</ItemSubsessao>
 		  			</UlSubsessao>
 		  		</BoxConteudo>
 		  		<BotaoRedir href="/certificados">Certificados</BotaoRedir>
