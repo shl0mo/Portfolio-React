@@ -11,6 +11,10 @@ const SectionStyled = styled.section`
 	border-top: 1px solid rgba(0,0,0,0.2);
 	padding-bottom: ${props => props.ultimo ? '200px' : '150px'};
 	background-color: ${props => (props.bg_color)};
+
+	@media (max-width: 830px) {
+		width: 830px;
+	}
 `
 
 export function Section ({ bg_color, children, id, ultimo }) {

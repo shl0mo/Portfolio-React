@@ -10,6 +10,11 @@ export const TabelaProjetosStyled = styled.table`
 	min-height: 100px;
 	padding: 20px;
 	border: 1px solid rgba(0,0,0,0.2);
+
+	@media (max-width: 830px) {
+		margin-left: ${props => props.margin_left ? '70px' : '0px'};
+		width: 700px;
+	}
 `
 
 export const Tr = styled.tr`
@@ -39,7 +44,7 @@ export const Td = styled.td`
 	}
 `
 
-export function TabelaProjetos () {
+export function TabelaProjetos ({ margin_left }) {
 	const array_href = window.location.href.split('/')
 	const pagina = array_href[array_href.length - 1]
 	let linhas_tabela = [
@@ -126,7 +131,7 @@ export function TabelaProjetos () {
 		]
 	}
 	return (
-		<TabelaProjetosStyled>
+		<TabelaProjetosStyled margin_left={margin_left}>
 			<tbody>
 				{linhas_tabela.map((linha, index) => (
 					<Tr key={`linha-${index}`}>

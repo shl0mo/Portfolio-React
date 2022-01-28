@@ -6,6 +6,11 @@ const ContainerFooter = styled.div`
 	display: flex;
 	align-items: space-between;
 	width: 100vw;
+	margin: 0px;
+
+	@media (max-width: 830px) {
+		width: 830px;
+	}
 `
 
 const LogoFooter = styled.div`
@@ -14,6 +19,10 @@ const LogoFooter = styled.div`
 	font-family: "PublicPixel";
 	margin: 60px 0px 0px 18vw;
 	float: left;
+
+	@media (max-width: 830px) {
+		margin-left: 10px;
+	}
 `
 
 const BarraVertical = styled.div`
@@ -39,6 +48,11 @@ const FooterStyled = styled.footer`
 	margin-bottom: 0;
 	bottom: 0;
 	cursor: default;
+
+	@media (max-width: 830px) {
+		text-align: center;
+		width: 830px;
+	}
 `
 
 const ContainerDadosDev = styled.div`

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { BarraSuperior, BoxFoto, TituloSessao, BotaoRedir, BoxConteudo, Section, Footer, SectionMain, BoxMain, ContainerTituloSessao, TabelaProjetos, IconeTelefone, IconeEmail, IconeLinkedin, IconeGithub, ContainerLogoTecnologia, TituloSubsessao, UlSubsessao, ItemSubsessao, BoxItemContato } from '../components'
 
 export const Home = () => {
 	return (
 		<>
-	  		<BarraSuperior hrefHome="/" hrefSobre="#sobre" hrefProjetos="#projetos" hrefContato="#contato"/>
+			<BarraSuperior hrefHome="/" hrefSobre="#sobre" hrefProjetos="#projetos" hrefContato="#contato" className="foto"/>
 		  	<SectionMain className="sm">
 		  		<BoxFoto/>
 	  			<BoxMain/>

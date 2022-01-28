@@ -9,4 +9,9 @@ export const BoxConteudo = styled.div`
 	text-align: justify;
 	font-size: 1.38em;
 	line-height: 3vh;
+
+	@media (max-width: 830px) {
+		width: 800px;
+		line-height: 30px;
+	}
 `

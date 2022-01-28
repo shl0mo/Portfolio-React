@@ -8,7 +8,7 @@ export const Projetos = () => {
 			<BarraSuperior hrefHome="/" hrefCertificados="certificados"/>
 			<ContainerPagina>
 				<TituloPagina>Projetos</TituloPagina>
-				<TabelaProjetos/>
+				<TabelaProjetos margin_left={true}/>
 			</ContainerPagina>
 			<Footer/>
 		</>

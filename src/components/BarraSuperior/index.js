@@ -9,6 +9,11 @@ const Header = styled.header`
 	color: white;
 	height: 100px;
 	font-size: 1.15em;
+	width: 100%;
+
+	@media (max-width: 830px) {
+		width: 830px;
+	}
 `
 
 export const Logo = styled.span`
@@ -77,7 +82,7 @@ export function BarraSuperior ({ hrefSobre, hrefProjetos, hrefContato, hrefHome,
 		]
 	}
 	return (
-		<Header>
+		<Header className="teste">
 			<A href={hrefHome}>
 				<Logo>
 					SC-Dev

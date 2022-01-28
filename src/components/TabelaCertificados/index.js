@@ -10,6 +10,11 @@ const TabelaCertificadosStyled = styled.table`
 	width: 60vw;
 	min-height: 100px;
 	padding: 20px;
+
+	@media (max-width: 830px) {
+		margin-left: 75px;
+		width: 700px;
+	}
 `
 
 const Tr = styled.tr`

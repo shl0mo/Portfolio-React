@@ -36,9 +36,3 @@ a {
 .f-l {
 	float: left;
 }
-
-@media (max-width: 873px) {
-	.sm {
-		margin-left: 0px;
-	}
-} 
