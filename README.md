@@ -5,5 +5,5 @@
 ## Para instalar as dependências, na pasta do projeto execute o comando
 ### `npm install`
 
-## Para executar, na página do projeto execute
+## Para iniciar, no mesmo diretório execute
 ### `npm run start`
