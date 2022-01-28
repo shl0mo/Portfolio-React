@@ -1,6 +1,6 @@
 # Portfólio em React totalmente componentizado
 
-![img](assets/Portfolio.gif)
+![img](src/assets/Portfolio.gif)
 
 ## Para instalar as dependências, na pasta do projeto execute o comando
 ### `npm install`
