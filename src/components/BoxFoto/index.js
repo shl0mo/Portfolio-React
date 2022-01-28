@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import foto from '../../assets/foto.jpg'
 
-export const BoxFoto = styled.div`
+const BoxFotoStyled = styled.div`
 	position: relative;
 	height: 400px;
 	width: 400px;
@@ -10,3 +10,11 @@ export const BoxFoto = styled.div`
 	background-image: url(${foto});
 	background-size: contain;
 `
+export const BoxFoto = () => {
+	return (
+		<span>
+			<BoxFotoStyled/>
+		</span>
+	)
+}
+
