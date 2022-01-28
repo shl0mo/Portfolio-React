@@ -44,7 +44,7 @@ export function TabelaProjetos () {
 	const pagina = array_href[array_href.length - 1]
 	let linhas_tabela = [
 			<Tr>
-				<Td>Portifólio</Td>
+				<Td>Portfolio</Td>
 				<Td><BotaoSecundario/></Td>
 				<Td><BotaoPrimario/></Td>
 			</Tr>,

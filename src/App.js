@@ -27,6 +27,11 @@ function App() {
 		  			<TituloSubsessao>Hard Skills</TituloSubsessao>
 		  			<ContainerLogoTecnologia/>
 		  			<TituloSubsessao>Soft Skills</TituloSubsessao>
+		  			<UlSubsessao>
+		  				<ItemSubsessao>Autodidata</ItemSubsessao>  	
+		  				<ItemSubsessao>Proativo</ItemSubsessao>	
+		  				<ItemSubsessao>Perfil analítico</ItemSubsessao>
+		  			</UlSubsessao>
 		  			<TituloSubsessao>Idiomas</TituloSubsessao>
 	  				<UlSubsessao>	
 	  					<ItemSubsessao>Inglês - avançado</ItemSubsessao>

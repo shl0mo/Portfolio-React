@@ -19,10 +19,13 @@ const Tr = styled.tr`
 	aligm-items: center;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 	margin: 10px 0;
-
+	
+	&first-child {
+		margin-top: 0;
+		padding-top: 15px;
+	}
 	&:last-child {
 		border-bottom: none;
-		padding-bottom: 0px;
 	}
 `
 
