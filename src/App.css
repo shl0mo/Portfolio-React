@@ -37,21 +37,8 @@ a {
 	float: left;
 }
 
-@media (max-width: 1130px) {
-	.nwrap {
-		margin-left: 10px;
+@media (max-width: 873px) {
+	.sm {
+		margin-left: 0px;
 	}
-}
-
-
-@media (max-width: 1030px) {
-	.nwrap {
-		margin-left: 2%;
-	}
-}
-
-@media (max-width: 970px) {
-	.nwrap {
-		margin-left: 5px;
-	}
-}
+} 

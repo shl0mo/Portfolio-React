@@ -12,7 +12,7 @@ const BoxFotoStyled = styled.div`
 `
 export const BoxFoto = () => {
 	return (
-		<span>
+		<span className='bf'>
 			<BoxFotoStyled/>
 		</span>
 	)
