@@ -86,11 +86,6 @@ export function TabelaProjetos ({ margin_left }) {
 				<Td>Jogo da memória</Td>
 				<Td><BotaoSecundario href="https://github.com/shl0mo/ChineseZodiac_MemoryGame"/></Td>
 				<Td><BotaoPrimario href="https://shl0mo.github.io/ChineseZodiac_MemoryGame"/></Td>
-			</>,	
-			<>
-				<Td>Consulta de DDD</Td>
-				<Td><BotaoSecundario/></Td>
-				<Td><BotaoPrimario/></Td>
 			</>,
 			<>
 				<Td>Aplicativo de cálculo do IMC</Td>
