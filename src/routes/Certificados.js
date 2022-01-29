@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import { BarraSuperior, ContainerPagina, TituloPagina, TabelaCertificados, Footer } from '../components'
 
 export const Certificados = () => {
