@@ -15,7 +15,7 @@ export const Home = () => {
 	 				 <TituloSessao>Sobre mim</TituloSessao>
 		  		</ContainerTituloSessao>
 		  		<BoxConteudo>
-	  				<p>Desenvolvedor Full-Stack e estudante de Engenharia da Computação na Universidade Federal do Amazonas. Entusiasta de Ciência de Dados e Cybersegurança, possuo mais de 60 cursos na área de TI</p>
+	  				<p>Desenvolvedor Full-Stack e estudante de Engenharia da Computação na Universidade Federal do Amazonas. Entusiasta de Ciência de Dados e Cybersegurança, possuo mais de 50 cursos na área de TI</p>
 		  			<TituloSubsessao>Hard Skills</TituloSubsessao>
 		  			<ContainerLogoTecnologia/>
 		  			<TituloSubsessao>Soft Skills</TituloSubsessao>

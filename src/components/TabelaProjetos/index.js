@@ -50,8 +50,8 @@ export function TabelaProjetos ({ margin_left }) {
 	let linhas_tabela = [
 			<>
 				<Td>Portfólio</Td>
-				<Td><BotaoSecundario/></Td>
-				<Td><BotaoPrimario/></Td>
+				<Td><BotaoSecundario href="https://github.com/shl0mo/Portfolio-React"/></Td>
+				<Td></Td>
 			</>,
 			<>
 				<Td>Verificador de sintaxe de email</Td>

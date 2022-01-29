@@ -6,7 +6,6 @@ const IconeGithubStyled = styled.span`
 `
 
 export const IconeGithub = ({ altura, largura,  href, color_class, margin }) => {
-	console.log(color_class)
 	return (
 		<IconeGithubStyled margin={margin}>
 			<a href={href} target="_blank">

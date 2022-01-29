@@ -7,7 +7,6 @@ const BotaoRedirStyled = styled.button`
 	padding: 20px 80px;
 	font-size: 1.3em;
 	cursor: pointer;
-	margin-top: 20px;
 	width: 357px;
 
 	&:hover {
@@ -16,14 +15,18 @@ const BotaoRedirStyled = styled.button`
 	}
 `
 
+const ContainerBotaoRedir = styled.div`
+	margin-top: 20px;
+`
+
 export function BotaoRedir({href, children}) {
 	return (
-		<span>
-		<a href={href}>
-			<BotaoRedirStyled>
-					{children}
-			</BotaoRedirStyled>
-		</a>
-		</span>
+		<ContainerBotaoRedir>
+			<a href={href}>
+				<BotaoRedirStyled>
+						{children}
+				</BotaoRedirStyled>
+			</a>
+		</ContainerBotaoRedir>
 	)
 }
