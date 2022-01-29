@@ -15,7 +15,7 @@ const TituloSessaoStyled = styled.h2`
 `
 
 const Rect = styled.span`
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-right: 10px;
 	cursor: default;
 	
