@@ -62,7 +62,9 @@ const A = styled.a`
 
 export function BarraSuperior ({ hrefSobre, hrefProjetos, hrefContato, hrefHome, hrefCertificados }) {
 	const array_href = window.location.href.split('/')
+	if (array_href.length == 5) array_href.pop()
 	const pagina = array_href[array_href.length - 1]
+	console.log(window.location.href)
 	let array_paginas = []
 	if (pagina === '' || pagina === '#sobre' || pagina === '#projetos' || pagina === '#contato') {
 		array_paginas = [

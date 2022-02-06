@@ -4,7 +4,7 @@ import { BarraSuperior, ContainerPagina, TituloPagina, TabelaProjetos, Footer } 
 export const Projetos = () => {
 	return (
 		<>
-			<BarraSuperior hrefHome="/" hrefCertificados="certificados"/>
+			<BarraSuperior hrefHome="/" hrefCertificados="/certificados"/>
 			<ContainerPagina>
 				<TituloPagina>Projetos</TituloPagina>
 				<TabelaProjetos margin_left={true}/>

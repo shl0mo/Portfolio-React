@@ -4,7 +4,7 @@ import { BarraSuperior, ContainerPagina, TituloPagina, TabelaCertificados, Foote
 export const Certificados = () => {
 	return (
 		<>
-			<BarraSuperior hrefHome="/" hrefProjetos="projetos"/>
+			<BarraSuperior hrefHome="/" hrefProjetos="/projetos"/>
 			<ContainerPagina>
 				<TituloPagina>Certificados</TituloPagina>
 				<TabelaCertificados/>
